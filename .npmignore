@@ -1,0 +1,10 @@
+.env*
+.git/
+.gitignore
+tests/
+*.test.js
+.DS_Store
+node_modules/
+coverage/
+.nyc_output/
+setup.js
