@@ -1,37 +1,43 @@
-# App Core Package
+# vc-core-nextjs
 
-Core package compartrilhado para aplicações NextJS.
+> 🛠️ O kit de início definitivo para Next.js + TypeScript. JWT auth, PostgreSQL, webhooks Stripe e middlewares pré-configurados. Setup em minutos, não dias.
 
-## Instalação
+---
+
+> 🛠️ The ultimate Next.js + TypeScript starter kit. JWT auth, PostgreSQL, Stripe webhooks, and pre-configured middlewares. Cut setup from days to minutes.
+
+---
+
+> 🛠️ 终极Next.js + TypeScript启动工具包。JWT认证、PostgreSQL、Stripe webhook和预配置中间件。将设置时间从数天缩短到数分钟。
+
+## Instalação | Installation
 
 ```bash
-npm install git+https://github.com/seu-usuario/app-core.git
+npm install @vogelcodes/vc-core-nextjs
 ```
 
-## Uso
+```bash
+npm install @vogelcodes/vc-core-nextjs
+```
+
+```bash
+npm install @vogelcodes/vc-core-nextjs
+```
+
+## Uso | Usage
 
 ```javascript
-import { authService, withAuth, database } from 'app-core';
+import { authService, withAuth, database, stripe } from '@vogelcodes/vc-core-nextjs';
 ```
 
-## Funcionalidades
+## Funcionalidades | Features
 
-- 🔐 Sistema de autenticação
-- 👥 Gerenciamento de usuários  
-- 🗄️ Conexão com PostgreSQL
-- 💳 Integração com Stripe
-- 📁 Gerenciamento de mídia
-- 🛡️ Middlewares de proteção
+- 🔐 Autenticação JWT com refresh tokens
+- 🗄️ Cliente PostgreSQL com query builder tipado
+- 💳 Webhooks Stripe prontos para produção
+- ⚡ Middlewares pré-configurados (rate limiting, CORS, auth)
+- 📦 100% TypeScript
 
-## Desenvolvimento
+## License
 
-```bash
-# Atualizar versão patch
-npm run publish:patch
-
-# Atualizar versão minor  
-npm run publish:minor
-
-# Atualizar versão major
-npm run publish:major
-```
+MIT
